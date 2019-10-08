@@ -9,16 +9,14 @@ import { SpecialButton } from "./SpecialButton";
 export const Specials = () => {
     // STEP 2 - add the imported data to state
     const [special, setSpecial] = useState(specials);
-    console.log(special);
-    return ( <
-        >
-        {
+
+    return ( < div > {
             special.map((button, index) => ( <
                 SpecialButton key = { index }
                 button = { button }
                 />
             ))
-        } <
-        />
+        } < /
+        div >
     );
 };

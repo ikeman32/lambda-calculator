@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
-import { NumberButton } from "./components/ButtonComponents/NumberButtons/NumberButton";
-import { OperatorButton } from "./components/ButtonComponents/OperatorButtons/OperatorButton";
-import { SpecialButton } from "./components/ButtonComponents/SpecialButtons/SpecialButton";
+import { Numbers } from "./components/ButtonComponents/NumberButtons/Numbers";
+import { Operators } from "./components/ButtonComponents/OperatorButtons/Operators";
+import { Specials } from "./components/ButtonComponents/SpecialButtons/Specials";
 import { Display } from "./components/DisplayComponents/Display";
 
 
@@ -27,11 +27,11 @@ function App() {
         Display / >
         <
         /div>  <
-        SpecialButton / >
+        Specials / >
         <
-        NumberButton / >
+        Numbers / >
         <
-        OperatorButton / >
+        Operators / >
         <
         /
         div >
