@@ -10,13 +10,11 @@ export const Specials = () => {
     // STEP 2 - add the imported data to state
     const [special, setSpecial] = useState(specials);
 
-    return ( < div > {
-            special.map((button, index) => ( <
-                SpecialButton key = { index }
-                button = { button }
-                />
-            ))
-        } < /
-        div >
-    );
+    return ( < div className = "calcButtons" > {
+        special.map((button, index) => ( <
+            SpecialButton key = { index }
+            button = { button }
+            />
+        ))
+    } < /div >);
 };
