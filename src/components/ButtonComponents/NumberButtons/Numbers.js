@@ -18,7 +18,7 @@ export const Numbers = props => {
                                component matching the name on the provided file. Pass
                                it any props needed by the child component*/
       numberButtons.map((button, index) => (
-        <NumberButton key={index} button={button} setDisplay={props.setDisplay} />
+        <NumberButton key={index} button={button} display={props.display} setDisplay={props.setDisplay} />
       ))}{" "}
     </>
   );

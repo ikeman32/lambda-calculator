@@ -6,13 +6,16 @@ import { operators } from "../../../data";
 
 //Import your array data to from the provided data file
 
-export const Operators = () => {
+export const Operators = props => {
   // STEP 2 - add the imported data to state
   const [opButtons, setOpButtons] = useState(operators);
   return (
     <>
       {opButtons.map((button, index) => (
-        <OperatorButton key={index} button={button} />
+        <OperatorButton key={index} 
+          button={button} 
+          display={props.display} 
+          setDisplay={props.setDisplay}/>
       ))}{" "}
     </>
   );

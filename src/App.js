@@ -27,9 +27,9 @@ function App() {
       </div>{" "}
       <div className="buttons">
         {" "}
-        <Specials />
-        <Operators />
-        <Numbers setDisplay={setDisplay}/>
+        <Specials display={display} setDisplay={setDisplay}/>
+        <Operators display={display} setDisplay={setDisplay}/>
+        <Numbers display={display} setDisplay={setDisplay}/>
       </div>
     </div>
   );
