@@ -11,11 +11,11 @@ export const Specials = () => {
   const [special, setSpecial] = useState(specials);
 
   return (
-    <div className="calcButtons">
+    <>
       {" "}
       {special.map((button, index) => (
         <SpecialButton key={index} button={button} />
       ))}{" "}
-    </div>
+    </>
   );
 };
