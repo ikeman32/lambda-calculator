@@ -6,8 +6,10 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
 .display {
     margin-top: 25px;
+    margin: 0 auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +21,121 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+.buttons{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 5;
+}
+.buttons button{
+    max-width: 100%;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    border: none;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
+.buttons button:nth-child(1){
+    grid-column: 1;
+    grid-row: 1;
+    background-color: royalblue;
+}
+
+.buttons button:nth-child(2){
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 0.5rem;
+    background-color: royalblue;
+}
+.buttons button:nth-child(3){
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: 0.5rem;
+    background-color: royalblue;
+}
+.buttons button:nth-child(4){
+    grid-column: 4;
+    grid-row: 1;
+    margin-left: 0.5rem;
+    background-color: royalblue;
+}
+.buttons button:nth-child(5){
+    grid-column: 4;
+    grid-row: 2;
+    margin-left: 0.5rem;
+    background-color: royalblue;
+}
+.buttons button:nth-child(6){
+    grid-column: 4;
+    grid-row: 3;
+    margin-left: 0.5rem;
+    background-color: royalblue;
+}
+.buttons button:nth-child(7){
+    grid-column: 4;
+    grid-row: 4;
+    margin-left: 0.5rem;
+    background-color: royalblue;
+}
+.buttons button:nth-child(8){
+    grid-column: 4;
+    grid-row: 5;
+    margin-left: 0.5rem;
+    background-color: royalblue;
+}
+.buttons button:nth-child(9){
+    grid-column: 1;
+    grid-row: 4;
+}
+.buttons button:nth-child(10){
+    grid-column: 2;
+    grid-row: 4;
+    margin-left: 0.5rem;
+}
+.buttons button:nth-child(11){
+    grid-column: 3;
+    grid-row: 4;
+    margin-left: 0.5rem;
+}
+.buttons button:nth-child(12){
+    grid-column: 1;
+    grid-row: 3;
+}
+.buttons button:nth-child(13){
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 0.5rem;
+}
+.buttons button:nth-child(14){
+    grid-column: 3;
+    grid-row: 3;
+    margin-left: 0.5rem;
+}
+.buttons button:nth-child(15){
+    grid-column: 1;
+    grid-row: 2;
+}
+.buttons button:nth-child(16){
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 0.5rem;
+}
+.buttons button:nth-child(17){
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 0.5rem;
+}
+.buttons button:nth-child(18){
+    grid-column-start: span 2;
+    grid-row: 5;
+}
+.buttons button:nth-child(19){
+    grid-column: 3;
+    grid-row: 5;
+    margin-left: 0.5rem;
+}
